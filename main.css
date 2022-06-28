@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	background: black;
+	justify-content: center;
+	min-height: 100vh;
+}
+.center{
+	background: lightblue;
+	/*height: 550px;*/
+	width: 350px;
+	border-radius: 20px;
+}
+input[type = "text"]{
+	height: 90px;
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 3px;
+	border: 1px solid;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+form.buttons{
+	width: 300px;
+	padding: 10px 0;
+}
+input[type="button"]{
+	width: 58px;
+	height: 55px;
+	margin: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+input[type="button"]:hover{
+	transition: .5s;
+	background: yellow;
+}
+input#equal{
+	width: 280px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	background: red;
+	color: white;
+}
+input#clear{
+	background: red;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*calculater  design 2*/
+
+/**{
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+	background-color: black;
+}*/
+/*#container{
+	width: 1300px;
+	height: 700px;
+	background-color: yellow;
+	margin: 20px auto;
+}
+#calculater{
+	position: relative;
+	width: 360px;
+	height: 600px;
+	margin: 0 auto;
+	top: 20px;
+	background-color: gray;
+	border-radius: 10px;
+}
+#keyboard{
+	height: 500px;
+}
+#result{
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	width: 330px;
+	/*background-color: #fff;*/
+	height:  120px;
+}
+/*#history{
+	position: relative;
+	text-align: right;
+	font-size: 15px;
+	color: #919191;
+	margin: 0 20px;
+	height: 35px;
+	top: 5px;
+	color: #fff;
+
+}*/
+/*#output{
+	font-size: 30px;
+	text-align: right;
+	height: 65px;
+	margin: 10px 20px;
+	color: #fff;
+
+}*/
+/*.number, .operator, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	border-radius: 50%;
+	border-width: 0;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+.number, .operator{
+	cursor: pointer;
+
+}
+.number:active, .operator: active{
+	font-size: px;
+}*/
+/*button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}*/
